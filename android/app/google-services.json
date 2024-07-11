@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "496273817670",
+    "project_id": "cmsc23-todo-app-cvlim",
+    "storage_bucket": "cmsc23-todo-app-cvlim.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496273817670:android:beea862d9055674c898a47",
+        "android_client_info": {
+          "package_name": "com.example.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB34b3TL49ib2vSDhiWnFP6bpio2_uNV2c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

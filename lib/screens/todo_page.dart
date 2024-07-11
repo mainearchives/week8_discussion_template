@@ -44,6 +44,7 @@ class _TodoPageState extends State<TodoPage> {
             itemBuilder: ((context, index) {
               Todo todo = Todo.fromJson(
                   snapshot.data?.docs[index].data() as Map<String, dynamic>);
+              todo.id = snapshot.data?.docs[index].id;
               return Dismissible(
                 key: Key(todo.id.toString()),
                 onDismissed: (direction) {
